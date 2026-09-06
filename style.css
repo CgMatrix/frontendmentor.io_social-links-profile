@@ -1,0 +1,155 @@
+/*
+## Colors
+- Green: hsl(75, 94%, 57%)
+- White: hsl(0, 0%, 100%)
+- Grey 700: hsl(0, 0%, 20%)
+- Grey 800: hsl(0, 0%, 12%)
+- Grey 900: hsl(0, 0%, 8%)
+
+## Typography
+### Body Copy
+- Font size (paragraph): 14px(0.875 rem)
+
+### Font
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 600, 700
+*/
+/*
+Challanges so far:
+-Space above picture. Found margin to work at the end.
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*FONTS*/
+/* Weights: 400, 600, 700 */
+/* @import url("https://googleapis.com"); */
+/*1rem = 16px*/
+/*14px =0.875 rem*/
+
+/* Apply Inter as the primary font family across the site */
+body {
+  font-family: "Inter", sans-serif;
+
+  /* Optional: Enable clean text rendering and standard ligatures */
+  font-feature-settings:
+    "liga" 1,
+    "calt" 1;
+}
+
+/* ==========================================================================
+   1. DEFAULT: Laptop & Desktop Screens
+   ========================================================================== */
+.name {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.location {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.career {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+p {
+  font-size: 0.875rem; /*14px*/
+  font-weight: 400;
+}
+button {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/*UX SETUP*/
+.screen {
+  background-color: hsl(0, 0%, 8%); /*Gray900*/
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  background-color: hsl(0, 0%, 12%); /*Grey 700*/
+  width: 25rem;
+  height: 38.5rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.profile {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 4rem;
+  background-color: hsl(0, 0, 12%); /*Yellow*/
+  margin-top: 0.5rem;
+}
+.name {
+  display: inline-block;
+  color: hsl(0, 0%, 100%);
+  padding-top: 1.9rem;
+}
+.career {
+  display: inline-block;
+  color: hsl(0, 0%, 80%);
+  padding-top: 1.8rem;
+}
+.location {
+  display: inline-block;
+  color: hsl(75, 94%, 57%);
+  padding-top: 0.6rem;
+}
+
+.buttons {
+  padding-top: 1.2rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+  margin: 1rem 0rem;
+  padding: 0.95rem 0rem;
+  border-radius: 0.1rem;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
+  border: none;
+}
+
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   2. MEDIA QUERY: Mobile Screens
+   ========================================================================== */
+@media screen and (max-width: 40rem) {
+  .container {
+    width: 88vw;
+    height: auto;
+    padding: 1.5rem;
+  }
+  .profile {
+    margin-top: 0rem;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    width: 76vw;
+    margin: 1rem 0rem;
+    padding: 1rem 0rem;
+  }
+  button:last-child {
+    margin-bottom: 0;
+  }
+}

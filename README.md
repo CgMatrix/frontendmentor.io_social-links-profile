@@ -1,4 +1,4 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Social Links Profile solution
 
 This is a solution to the [Blog preview card challenge on Frontend Mentor](https://cgmatrix.github.io/frontendmentor.io_social-links-profile/). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -41,14 +41,14 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
+- Desktop-first workflow
 
 ### What I learned:
 
 This exercise helped me to recap the use of:
 - CSS flexbox
 - Media queries - @media
-- Pseudo code - :hover & :focus
+- Pseudo code - :hover
  
 This code practise also helped me to build further skills for building a responsive web page by starting with mobile first, instead of desktop.
 
@@ -93,8 +93,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 Based on extending skills for future projects, I'm planning to focus more on the following:
 - SaaS
-- GSAP
-- Three.js
+- React.js
 
 ### Useful resources:
 

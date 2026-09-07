@@ -1,6 +1,6 @@
 # Frontend Mentor - Social Links Profile solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://cgmatrix.github.io/frontendmentor.io_social-links-profile/). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://cgmatrix.github.io/frontendmentor.io_social-links-profile/). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 

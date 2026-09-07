@@ -114,7 +114,8 @@ button {
 button {
   display: flex;
   justify-content: center;
-  width: 20vw;
+  /* width: 20vw; */
+  width: 20rem;
   margin: 1rem 0rem;
   padding: 0.95rem 0rem;
   border-radius: 0.1rem;
@@ -130,10 +131,14 @@ button:hover {
   cursor: pointer;
 }
 
+/******************/
+/* MEDIA QUERIES: */
+/******************/
 /* ==========================================================================
-   2. MEDIA QUERY: Mobile Screens
+   MEDIA QUERY: Mobile Screens
    ========================================================================== */
-@media screen and (max-width: 40rem) {
+
+@media screen and (max-width: 60rem) {
   .container {
     width: 88vw;
     height: auto;

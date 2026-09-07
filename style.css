@@ -43,28 +43,12 @@ body {
 /* ==========================================================================
    1. DEFAULT: Laptop & Desktop Screens
    ========================================================================== */
-.name {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-.location {
-  font-size: 0.8rem;
-  font-weight: 600;
-}
-.career {
-  font-size: 0.9rem;
-  font-weight: 400;
-}
+/*UX SETUP*/
 p {
   font-size: 0.875rem; /*14px*/
   font-weight: 400;
 }
-button {
-  font-size: 0.85rem;
-  font-weight: 600;
-}
 
-/*UX SETUP*/
 .screen {
   background-color: hsl(0, 0%, 8%); /*Gray900*/
   height: 100vh;
@@ -92,17 +76,23 @@ button {
   margin-top: 0.5rem;
 }
 .name {
+  font-size: 1.5rem;
+  font-weight: 400;
   display: inline-block;
   color: hsl(0, 0%, 100%);
   padding-top: 1.9rem;
 }
 .career {
+  font-size: 0.9rem;
+  font-weight: 400;
   display: inline-block;
   color: hsl(0, 0%, 80%);
   padding-top: 1.8rem;
 }
 .location {
   display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
   color: hsl(75, 94%, 57%);
   padding-top: 0.6rem;
 }
@@ -114,8 +104,9 @@ button {
 button {
   display: flex;
   justify-content: center;
-  /* width: 20vw; */
   width: 20rem;
+  font-size: 0.85rem;
+  font-weight: 600;
   margin: 1rem 0rem;
   padding: 0.95rem 0rem;
   border-radius: 0.1rem;

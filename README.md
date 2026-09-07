@@ -46,50 +46,33 @@ Users should be able to:
 ### What I learned:
 
 This exercise helped me to recap the use of:
+- Google Fonts
 - CSS flexbox
 - Media queries - @media
 - Pseudo code - :hover
  
-This code practise also helped me to build further skills for building a responsive web page by starting with mobile first, instead of desktop.
+This excersize also helped me to re-build skills required for developing a responsive web page by starting with desktop first, mobile second.
 
 Example of code snippest after research on MDN:
 ```html
-<footer class="attribution">
-  <p>
-    Challenge by <a class="button" href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-  </p>
-  <p>
-    Coded by <a class="button" href="https://www.frontendmentor.io/profile/CgMatrix">CgMatrix</a>.
-  </p>
-</footer>
+<link
+href="https://fonts.googleapis.com/css2?family=Inter, wght@0,300..900;1,300..900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="./style.css" />
 ```
 
 ```css
-.attribution {
-  color: hsl(0, 0%, 7%);
-  font-size: 0.68rem;
-  font-weight: 500;
-}
+/* Apply Inter as the primary font family across the site */
+body {
+  font-family: "Inter", sans-serif;
 
-.button {
-  font-size: 0.7rem;
-  font-weight: 800;
-  color: inherit;
-  text-decoration: none;
-}
-
-.button:hover {
-  color: hsl(0, 0%, 100%);
-}
-.button:focus {
-  background-color: hsl(0, 0%, 100%);
-  color: hsl(47, 88%, 63%);
+  /* Optional: Enable clean text rendering and standard ligatures */
+  font-feature-settings:
+    "liga" 1,
+    "calt" 1;
 }
 ```
 
 ### Continued development:
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 Based on extending skills for future projects, I'm planning to focus more on the following:
 - SaaS

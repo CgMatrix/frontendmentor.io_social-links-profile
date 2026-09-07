@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://cgmatrix.github.io/frontendmentor.io_blog-preview-card/](https://cgmatrix.github.io/frontendmentor.io_social-links-profile/)
+- Live Site URL: [https://cgmatrix.github.io/frontendmentor.io_social-links-profile/](https://cgmatrix.github.io/frontendmentor.io_social-links-profile/)
 
 ## My process
 

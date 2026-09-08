@@ -1,40 +1,12 @@
-/*
-## Colors
-- Green: hsl(75, 94%, 57%)
-- White: hsl(0, 0%, 100%)
-- Grey 700: hsl(0, 0%, 20%)
-- Grey 800: hsl(0, 0%, 12%)
-- Grey 900: hsl(0, 0%, 8%)
-
-## Typography
-### Body Copy
-- Font size (paragraph): 14px(0.875 rem)
-
-### Font
-- Family: [Inter](https://fonts.google.com/specimen/Inter)
-- Weights: 400, 600, 700
-*/
-/*
-Challanges so far:
--Space above picture. Found margin to work at the end.
-*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*FONTS*/
-/* Weights: 400, 600, 700 */
-/* @import url("https://googleapis.com"); */
-/*1rem = 16px*/
-/*14px =0.875 rem*/
-
-/* Apply Inter as the primary font family across the site */
 body {
   font-family: "Inter", sans-serif;
 
-  /* Optional: Enable clean text rendering and standard ligatures */
   font-feature-settings:
     "liga" 1,
     "calt" 1;
@@ -43,7 +15,7 @@ body {
 /* ==========================================================================
    1. DEFAULT: Laptop & Desktop Screens
    ========================================================================== */
-/*UX SETUP*/
+
 p {
   font-size: 0.875rem; /*14px*/
   font-weight: 400;
@@ -122,9 +94,6 @@ button:hover {
   cursor: pointer;
 }
 
-/******************/
-/* MEDIA QUERIES: */
-/******************/
 /* ==========================================================================
    MEDIA QUERY: Mobile Screens
    ========================================================================== */
